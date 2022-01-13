@@ -1,0 +1,36 @@
+{
+  'extends': 'stylelint-config-recommended-scss',
+  'plugins': [
+    'stylelint-order'
+  ],
+  'rules': {
+    'at-rule-empty-line-before': null,
+    'at-rule-name-space-after': 'always',
+    'at-rule-no-vendor-prefix': true,
+    'at-rule-semicolon-space-before': 'never',
+    'block-closing-brace-empty-line-before': null,
+    'block-closing-brace-newline-after': null,
+    'block-opening-brace-space-before': null,
+    'color-named': 'never',
+    'declaration-block-semicolon-newline-before': 'never-multi-line',
+    'declaration-empty-line-before': null,
+    'declaration-no-important': true,
+    'font-family-name-quotes': 'always-where-recommended',
+    'font-weight-notation': [
+      'numeric',
+      {
+        'ignore': [
+          'relative'
+        ]
+      }
+    ],
+    'function-url-no-scheme-relative': true,
+    'function-url-quotes': 'always',
+    'max-line-length': null,
+    'media-feature-name-no-vendor-prefix': true,
+    'no-descending-specificity': null,
+    'number-leading-zero': 'never',
+    
+   
+  }
+}
